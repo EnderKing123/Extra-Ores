@@ -1,0 +1,53 @@
+tile.PorkOre.name=Pork Ore
+tile.SteakOre.name=Steak Ore
+tile.ChickenOre.name=Chicken Ore
+tile.BoneOre.name=Bone Ore
+tile.StringOre.name=String Ore
+tile.ObsidianOre.name=Obsidian Ore
+tile.GreenOre.name=Greentanium Ore
+tile.GreenBlock.name=Greentanium Block
+tile.GPOre.name=Gunpowder Ore
+tile.SlimeOre.name=Slime Ore
+tile.ROre.name=Ruby Ore
+
+itemGroup.TabBlocks=Extra Blocks
+itemGroup.TabItems=Extra Items
+itemGroup.TabTools=Extra Tools
+itemGroup.TabArmor=Extra Armor
+
+item.OIngot.name=Obsidian Ingot
+item.GIngot.name=Greentanium Ingot
+item.Ruby.name=Ruby
+item.OStick.name=Obsidian Stick
+item.GStick.name=Greentanium Stick
+item.RStick.name=Ruby Stick
+
+item.OPick.name=Obsidian Pickaxe
+item.OAxe.name=Obsidian Axe
+item.OSword.name=Obsidian Sword
+item.OShovel.name=Obsidian Shovel
+item.OHoe.name=Obsidian Hoe
+item.GPick.name=Greentanium Pickaxe
+item.GAxe.name=Greentanium Axe
+item.GSword.name=Greentanium Sword
+item.GShovel.name=Greentanium Shovel
+item.GHoe.name=Greentanium Hoe
+item.RPick.name=Ruby Pickaxe
+item.RAxe.name=Ruby Axe
+item.RSword.name=Ruby Sword
+item.RShovel.name=Ruby Shovel
+item.RHoe.name=Ruby Hoe
+
+
+item.OBoots.name=Obsidian Boots
+item.OPants.name=Obsidian Leggings
+item.OChest.name=Obsidian Chestplate
+item.OHelmet.name=Obsidian Helmet
+item.GBoots.name=Greentanium Boots
+item.GPants.name=Greentanium Leggings
+item.GChest.name=Greentanium Chestplate
+item.GHelmet.name=Greentanium Helmet
+item.RBoots.name=Ruby Boots
+item.RPants.name=Ruby Leggings
+item.RChest.name=Ruby Chestplate
+item.RHelmet.name=Ruby Helmet
