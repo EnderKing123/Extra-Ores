@@ -1,8 +1,7 @@
 package com.EnderKing.main;
 
-import com.EnderKing.Items.GArmor;
 import com.EnderKing.Items.MItems;
-import com.EnderKing.Items.OArmor;
+import com.EnderKing.Items.Greentanium.GArmor;
 import com.EnderKing.MBlocks.MBlocks;
 import com.EnderKing.creativetabs.MCreativeTabs;
 import com.EnderKing.lib.RefStrings;
