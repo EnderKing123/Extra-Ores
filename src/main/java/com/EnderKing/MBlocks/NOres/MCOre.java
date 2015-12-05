@@ -1,4 +1,4 @@
-package com.EnderKing.MBlocks.Ores;
+package com.EnderKing.MBlocks.NOres;
 
 import java.util.Random;
 
@@ -7,9 +7,9 @@ import net.minecraft.block.material.Material;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 
-public class GTOre extends Block{
+public class MCOre extends Block{
 
-	public GTOre(Material p_i45394_1_) {
+	public MCOre(Material p_i45394_1_) {
 		super(p_i45394_1_);
 		this.setHardness(2.0f);
 		this.setHarvestLevel("Pickaxe", 2);
@@ -18,7 +18,7 @@ public class GTOre extends Block{
 	
 	@Override
 	public Item getItemDropped(int metadata, Random rand, int fortune){
-		return Items.ghast_tear;
+		return Items.magma_cream;
 	}
 	
 	@Override

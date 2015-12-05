@@ -88,6 +88,7 @@ public class MItems {
 	public static Item PSword;
 	public static Item PAxe;
 	public static Item PHoe;
+	
 
 	public static void initialiseItem(){
 		//Items

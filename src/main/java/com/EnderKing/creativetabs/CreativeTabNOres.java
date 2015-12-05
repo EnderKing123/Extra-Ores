@@ -6,17 +6,18 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 
-public class CreativeTabOres extends CreativeTabs {
+public class CreativeTabNOres extends CreativeTabs {
 
-	public CreativeTabOres(String lable) {
+
+	public CreativeTabNOres(String lable) {
 		super(lable);
-		
-	}
-	
+		}
+
 	@Override
 	public Item getTabIconItem() {
 		
-		return Item.getItemFromBlock(MBlocks.GreenOre);
+		return Item.getItemFromBlock(MBlocks.GSOre);
 	}
+	
 
 }

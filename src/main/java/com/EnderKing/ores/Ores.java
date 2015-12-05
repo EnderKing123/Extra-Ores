@@ -44,7 +44,7 @@ public class Ores implements IWorldGenerator {
 	}
 	
 	public void generateEnd(Random random, int chunkX, int chunkZ, World world) {
-
+		addOre(MBlocks.EPOre, Blocks.end_stone, random, world, chunkX, chunkZ, 1, 80, 3, 5, 20);
 		
 
 	}
@@ -71,7 +71,6 @@ public class Ores implements IWorldGenerator {
 		addOre(MBlocks.FOre, Blocks.stone, random, world, chunkX, chunkZ, 1, 60, 5, 10, 20);
 		addOre(MBlocks.FeatherOre, Blocks.stone, random, world, chunkX, chunkZ, 1, 60, 5, 10, 20);
 		addOre(MBlocks.ArrowOre, Blocks.stone, random, world, chunkX, chunkZ, 1, 60, 5, 10, 20);
-		addOre(MBlocks.EPOre, Blocks.stone, random, world, chunkX, chunkZ, 1, 30, 3, 5, 20);
 		addOre(MBlocks.FishOre, Blocks.sand, random, world, chunkX, chunkZ, 1, 100, 4, 5, 25);
 		
 	}
@@ -80,7 +79,26 @@ public class Ores implements IWorldGenerator {
 		addOre(MBlocks.GSOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 45);
 		addOre(MBlocks.MCOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 45);
 		addOre(MBlocks.GTOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 45);
-
+		addOre(MBlocks.NAOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 45);
+		addOre(MBlocks.NArrowOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 25);
+		addOre(MBlocks.NBoneOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 25);
+		addOre(MBlocks.NChickenOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 25);
+		addOre(MBlocks.NCoOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 25);
+		addOre(MBlocks.NFeatherOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 25);
+		addOre(MBlocks.NFOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 25);
+		addOre(MBlocks.NGPOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 25);
+		addOre(MBlocks.NGreenOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 25);
+		addOre(MBlocks.NLOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 25);
+		addOre(MBlocks.NObsidianOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 25);
+		addOre(MBlocks.NPOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 25);
+		addOre(MBlocks.NPorkOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 25);
+		addOre(MBlocks.NROre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 25);
+		addOre(MBlocks.NSlimeOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 25);
+		addOre(MBlocks.NSOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 25);
+		addOre(MBlocks.NSteakOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 25);
+		addOre(MBlocks.NStringOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 25);
+		addOre(MBlocks.NTOre, Blocks.netherrack, random, world, chunkX, chunkZ, 1, 300, 5, 6, 25);
+		
 		
 
 	}

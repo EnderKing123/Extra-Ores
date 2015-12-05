@@ -88,9 +88,9 @@ public class CraftingManager {
 		GameRegistry.addRecipe(new ItemStack(MItems.RBoots, 1), new Object[]{"X X", "X X", 'X', MItems.Ruby});
 	}
 	public static void addSmeltingRec(){
-		GameRegistry.addSmelting(MBlocks.ChickenOre, new ItemStack(Items.cooked_chicken, 1), 20.0f);
-		GameRegistry.addSmelting(MBlocks.SteakOre, new ItemStack(Items.cooked_beef, 1), 20.0f);
-		GameRegistry.addSmelting(MBlocks.PorkOre, new ItemStack(Items.cooked_porkchop, 1), 20.0f);
+		GameRegistry.addSmelting(MBlocks.ChickenOre, new ItemStack(Items.cooked_chicken, 4), 20.0f);
+		GameRegistry.addSmelting(MBlocks.SteakOre, new ItemStack(Items.cooked_beef, 4), 20.0f);
+		GameRegistry.addSmelting(MBlocks.PorkOre, new ItemStack(Items.cooked_porkchop, 4), 20.0f);
 		GameRegistry.addSmelting(MBlocks.GreenOre, new ItemStack(MItems.GIngot, 1), 20.0f);
 		GameRegistry.addSmelting(MBlocks.ObsidianOre, new ItemStack(MItems.OIngot, 1), 20.0f);
 		GameRegistry.addSmelting(MBlocks.POre, new ItemStack(MItems.PIngot, 1), 20.0f);
@@ -99,6 +99,17 @@ public class CraftingManager {
 		GameRegistry.addSmelting(MBlocks.AOre, new ItemStack(MItems.AIngot, 1), 20.0f);
 		GameRegistry.addSmelting(MBlocks.LOre, new ItemStack(MItems.LIngot, 1), 20.0f);
 		GameRegistry.addSmelting(MBlocks.SOre, new ItemStack(MItems.SiIngot, 1), 20.0f);
-
+		GameRegistry.addSmelting(MBlocks.NChickenOre, new ItemStack(Items.cooked_chicken, 6), 20.0f);
+		GameRegistry.addSmelting(MBlocks.NSteakOre, new ItemStack(Items.cooked_beef, 6), 20.0f);
+		GameRegistry.addSmelting(MBlocks.NPorkOre, new ItemStack(Items.cooked_porkchop, 6), 20.0f);
+		GameRegistry.addSmelting(MBlocks.NGreenOre, new ItemStack(MItems.GIngot, 3), 20.0f);
+		GameRegistry.addSmelting(MBlocks.NObsidianOre, new ItemStack(MItems.OIngot, 3), 20.0f);
+		GameRegistry.addSmelting(MBlocks.NPOre, new ItemStack(MItems.PIngot, 3), 20.0f);
+		GameRegistry.addSmelting(MBlocks.NCoOre, new ItemStack(MItems.CoIngot, 3), 20.0f);
+		GameRegistry.addSmelting(MBlocks.NTOre, new ItemStack(MItems.TIngot, 3), 20.0f);
+		GameRegistry.addSmelting(MBlocks.NAOre, new ItemStack(MItems.AIngot, 3), 20.0f);
+		GameRegistry.addSmelting(MBlocks.NLOre, new ItemStack(MItems.LIngot, 3), 20.0f);
+		GameRegistry.addSmelting(MBlocks.NSOre, new ItemStack(MItems.SiIngot, 3), 20.0f);
+		
 	}
 }
