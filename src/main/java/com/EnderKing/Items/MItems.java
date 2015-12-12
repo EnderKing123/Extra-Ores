@@ -23,17 +23,20 @@ public class MItems {
 		
 	}
 	
+	//Tool Materials
 	public static ToolMaterial OTool = EnumHelper.addToolMaterial("Obsidian Tool", 3, 1000, 7.0f, 3.5f, 10);
 	public static ToolMaterial MTool = EnumHelper.addToolMaterial("Metal Tool", 2, 1000, 7.0f, 3.0f, 10);
 	public static ToolMaterial SMTool = EnumHelper.addToolMaterial("Strengthened Metal Tool", 3, 2500, 9.0f, 4.5f, 10);
 	public static ToolMaterial RTool = EnumHelper.addToolMaterial("Ruby Tool", 2, 2000, 9.0f, 4.0f, 10);
 	public static ToolMaterial GTool = EnumHelper.addToolMaterial("Greentanium Tool", 4, 5000, 12.0f, 5.0f, 10);
+	
+	//ArmorMaterials
 	public static ArmorMaterial OArmor = EnumHelper.addArmorMaterial("Obsidian Armor", 15, new int []{3, 7, 3, 3}, 10);
 	public static ArmorMaterial GArmor = EnumHelper.addArmorMaterial("Greentanium Armor", 40, new int []{4, 8, 4, 4}, 10);
 	public static ArmorMaterial RArmor = EnumHelper.addArmorMaterial("Ruby Armor", 20, new int[]{2, 6, 5, 2}, 10);
 	
 	
-	
+	//Items
 	public static Item GIngot;
 	public static Item OIngot;
 	public static Item OPick;
