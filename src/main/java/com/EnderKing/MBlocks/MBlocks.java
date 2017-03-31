@@ -11,6 +11,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
+import net.minecraftforge.oredict.OreDictionary;
 
 public class MBlocks {
 	public static void MainRegistry(){
@@ -183,6 +184,24 @@ public class MBlocks {
 		GameRegistry.registerBlock(NFOre, NFOre.getUnlocalizedName());
 		GameRegistry.registerBlock(NArrowOre, NArrowOre.getUnlocalizedName());
 		GameRegistry.registerBlock(NFeatherOre, NFeatherOre.getUnlocalizedName());
+		
+		OreDictionary.registerOre("oreCopper", CoOre);
+		OreDictionary.registerOre("oreTin", TOre);
+		OreDictionary.registerOre("oreAluminum", AOre);
+		OreDictionary.registerOre("oreAluminium", AOre);
+		OreDictionary.registerOre("oreLead", LOre);
+		OreDictionary.registerOre("oreSilver", SOre);
+		OreDictionary.registerOre("orePlatinum", POre);
+		OreDictionary.registerOre("orePlatinum", POre);
+		
+		OreDictionary.registerOre("oreNetherCopper", NCoOre);
+		OreDictionary.registerOre("oreNetherTin", NTOre);
+		OreDictionary.registerOre("oreNetherAluminum", NAOre);
+		OreDictionary.registerOre("oreNetherAluminium", NAOre);
+		OreDictionary.registerOre("oreNetherLead", NLOre);
+		OreDictionary.registerOre("oreNetherSilver", NSOre);
+		OreDictionary.registerOre("oreNetherPlatinum", NPOre);
+		OreDictionary.registerOre("oreNetherPlatinum", NPOre);
 	}
 	
 	
