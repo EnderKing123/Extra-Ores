@@ -14,6 +14,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraftforge.common.util.EnumHelper;
+import net.minecraftforge.oredict.OreDictionary;
 
 public class MItems {
 
@@ -211,6 +212,14 @@ public class MItems {
 		GameRegistry.registerItem(PSword, PSword.getUnlocalizedName());
 		GameRegistry.registerItem(PShovel, PShovel.getUnlocalizedName());
 		GameRegistry.registerItem(PHoe, PHoe.getUnlocalizedName());
+		
+		OreDictionary.registerOre("ingotSilver",SiIngot);
+		OreDictionary.registerOre("ingotLead", LIngot);
+		OreDictionary.registerOre("ingotTin", TIngot);
+		OreDictionary.registerOre("ingotCopper", CoIngot);
+		OreDictionary.registerOre("ingotPlatinum", PIngot);
+		OreDictionary.registerOre("ingotAluminum", AIngot);
+		OreDictionary.registerOre("ingotAluminium", AIngot);
 		
 	}
 }
